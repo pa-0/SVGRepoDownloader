@@ -17,7 +17,7 @@ class SVGCollectionDownloader:
         self._base_url = url.rsplit('/', 1)[0]
         self._collection_name = url.rsplit('/', 1)[-1]
         self._path = path
-        print('Downloading collection from', self._base_url)
+        print('Downloading collection from', url)
 
         self._download()
     
